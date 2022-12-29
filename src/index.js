@@ -1,3 +1,1 @@
-function fetchMovies(){}
-
-module.exports = {fetchMovies};
+export function fetchMovies(){}

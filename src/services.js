@@ -1,5 +1,3 @@
 function fetchWithTimeout(delay){
-    return new Promise(function(resolve,reject){
-        resolve(()=>setTimeout(resolve,delay))
-    });
+    return new Promise(resolve => setTimeout(resolve, delay));
 }
