@@ -26,3 +26,13 @@ export async function asyncFetchMovies(){
         console.log(error);
     }
 }
+
+export async function asyncfetchBooks(){
+    try{
+        const response = await fetch("./data/books.json");
+        const results = await response.json();
+        return results;
+    }catch{
+        console.log(error);
+    }
+}
