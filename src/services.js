@@ -32,7 +32,7 @@ export async function asyncFetchBooks(){
         const response = await fetch("./data/books.json");
         const results = await response.json();
         return results;
-    }catch{
+    }catch(error){
         console.log(error);
     }
 }
