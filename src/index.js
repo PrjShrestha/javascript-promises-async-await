@@ -1,5 +1,3 @@
-function fetchMovies(){
-    return;
-}
+function fetchMovies(){}
 
 module.exports = {fetchMovies};
